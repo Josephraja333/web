@@ -1,0 +1,44 @@
+body{
+    background-image: url("atlantic.webp");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    text-align: center;
+    
+}
+div{
+    
+    font-style: oblique;
+    color: white;
+    padding-right: 10%;
+}
+
+h1{
+    
+    font-size: 63px;
+}
+
+.temp{
+    font-size: 20px;
+    margin-top: -40px;
+    padding-right: 12%;
+}
+
+span{
+    font-size: 30px;
+    color: grey;
+}
+
+p{
+    padding-right: 45%;
+    padding-left: 38%;
+    text-align: justify;
+    font-size: 15px;
+}
+
+#trailer{
+    font-size: 30px;
+    padding-right: 45%;
+    padding-left: 38%;
+    font-style: oblique;
+    margin-top: 1%;
+}

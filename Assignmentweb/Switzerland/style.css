@@ -1,0 +1,99 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    text-align: center;
+    font-size: large;
+    background-color: #EEEEEE;
+}
+a{
+    color: #EEEEEE;
+    text-decoration: none;
+    padding: 30px;
+    
+}
+nav {
+    background-color: #11468F;
+    margin-left: 500px;
+    margin-right: 500px;
+    position: relative;
+    top:15px;
+    padding:15px;
+}
+.redfig figcaption{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-top:10px;
+} 
+.bluefig figcaption{
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-top:10px;
+}
+
+a read{
+    padding: 15px 25px;
+    background-color: #EEEEEE;
+   font-size:30px;
+   
+}
+.read
+{
+    margin: 25px;
+    background-color: #EEEEEE;
+    text-align: center;
+    color: black;
+    margin: auto;
+}
+
+
+.blue{
+    background-color:#11468F;
+    color: #EEEEEE;
+    padding-right: 25%;
+    padding-left: 25%;
+    text-align: center;
+}
+h2{
+    padding-top: 13px;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    text-align: justify;
+}
+div .redfig{
+    background-color:#11468F;
+    color:#EEEEEE;
+    width: 500px;
+    margin: auto;
+    padding: 25px;
+}
+div .bluefig{
+    background-color:#EEEEEE;
+    width:500px;
+    margin:auto;
+    padding: 25px;
+}
+
+.redfig img{
+    margin: auto;
+    width: 500px;
+}
+.bluefig img{
+    margin: auto;
+    width: 500px;
+}
+.read a{
+      background-color: rgba(255, 0, 0, 0.651);
+}
+.red{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}

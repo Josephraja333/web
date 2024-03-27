@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    static Scanner scan = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        int equals = scan.nextInt();
+        int[] a = {scan.nextInt(), scan.nextInt(), scan.nextInt(), scan.nextInt()};
+
+        if (checkAndPrint(a, "+", equals)) System.exit(0);
+        if (checkAndPrint(a, "-", equals)) System.exit(0);
+        if (checkAndPrint(a, "*", equals)) System.exit(0);
+        if (checkAndPrint(a, "%", equals)) System.exit(0);
+    }
+
+    public static boolean checkAndPrint(int[] a, String operator, int equals) {
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 4; j++) {
+                if ((operator.equals("+") && a[i] + a[j] == equals) ||
+                    (operator.equals("-") && i != j && a[i] - a[j] == equals) ||
+                    (operator.equals("*") && a[i] * a[j] == equals) ||
+                    (operator.equals("%") && i != j && a[i] % a[j] == equals)) {
+                    System.out.println(a[i] + " " + operator + " " + a[j] + " = " + equals);
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+}
+
